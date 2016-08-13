@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E00DAA81B9D21640005EF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00DAA71B9D21640005EF45 /* main.m */; };
+		4E00DAAB1B9D21640005EF45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00DAAA1B9D21640005EF45 /* AppDelegate.m */; };
+		4E00DAB11B9D21640005EF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E00DAAF1B9D21640005EF45 /* Main.storyboard */; };
+		4E00DAB31B9D21640005EF45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E00DAB21B9D21640005EF45 /* Images.xcassets */; };
+		4E00DAB61B9D21640005EF45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E00DAB41B9D21640005EF45 /* LaunchScreen.xib */; };
+		4E00DAC21B9D21640005EF45 /* PaintBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00DAC11B9D21640005EF45 /* PaintBoardTests.m */; };
+		4E00DACD1B9D21960005EF45 /* GPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00DACC1B9D21960005EF45 /* GPMainViewController.m */; };
+		4E00DAD01B9D31BA0005EF45 /* GPPaintBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E00DACF1B9D31BA0005EF45 /* GPPaintBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E00DABC1B9D21640005EF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E00DA9A1B9D21630005EF45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E00DAA11B9D21640005EF45;
+			remoteInfo = PaintBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E00DAA21B9D21640005EF45 /* PaintBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E00DAA61B9D21640005EF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E00DAA71B9D21640005EF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E00DAA91B9D21640005EF45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E00DAAA1B9D21640005EF45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E00DAB01B9D21640005EF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E00DAB21B9D21640005EF45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E00DAB51B9D21640005EF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E00DABB1B9D21640005EF45 /* PaintBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E00DAC01B9D21640005EF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E00DAC11B9D21640005EF45 /* PaintBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintBoardTests.m; sourceTree = "<group>"; };
+		4E00DACB1B9D21960005EF45 /* GPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMainViewController.h; sourceTree = "<group>"; };
+		4E00DACC1B9D21960005EF45 /* GPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMainViewController.m; sourceTree = "<group>"; };
+		4E00DACE1B9D31BA0005EF45 /* GPPaintBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPaintBoard.h; sourceTree = "<group>"; };
+		4E00DACF1B9D31BA0005EF45 /* GPPaintBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPaintBoard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E00DA9F1B9D21640005EF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E00DAB81B9D21640005EF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E00DA991B9D21630005EF45 = {
+			isa = PBXGroup;
+			children = (
+				4E00DAA41B9D21640005EF45 /* PaintBoard */,
+				4E00DABE1B9D21640005EF45 /* PaintBoardTests */,
+				4E00DAA31B9D21640005EF45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E00DAA31B9D21640005EF45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DAA21B9D21640005EF45 /* PaintBoard.app */,
+				4E00DABB1B9D21640005EF45 /* PaintBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E00DAA41B9D21640005EF45 /* PaintBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DACB1B9D21960005EF45 /* GPMainViewController.h */,
+				4E00DACC1B9D21960005EF45 /* GPMainViewController.m */,
+				4E00DACE1B9D31BA0005EF45 /* GPPaintBoard.h */,
+				4E00DACF1B9D31BA0005EF45 /* GPPaintBoard.m */,
+				4E00DAA91B9D21640005EF45 /* AppDelegate.h */,
+				4E00DAAA1B9D21640005EF45 /* AppDelegate.m */,
+				4E00DAAF1B9D21640005EF45 /* Main.storyboard */,
+				4E00DAB21B9D21640005EF45 /* Images.xcassets */,
+				4E00DAB41B9D21640005EF45 /* LaunchScreen.xib */,
+				4E00DAA51B9D21640005EF45 /* Supporting Files */,
+			);
+			path = PaintBoard;
+			sourceTree = "<group>";
+		};
+		4E00DAA51B9D21640005EF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DAA61B9D21640005EF45 /* Info.plist */,
+				4E00DAA71B9D21640005EF45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E00DABE1B9D21640005EF45 /* PaintBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DAC11B9D21640005EF45 /* PaintBoardTests.m */,
+				4E00DABF1B9D21640005EF45 /* Supporting Files */,
+			);
+			path = PaintBoardTests;
+			sourceTree = "<group>";
+		};
+		4E00DABF1B9D21640005EF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E00DAC01B9D21640005EF45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E00DAA11B9D21640005EF45 /* PaintBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E00DAC51B9D21640005EF45 /* Build configuration list for PBXNativeTarget "PaintBoard" */;
+			buildPhases = (
+				4E00DA9E1B9D21640005EF45 /* Sources */,
+				4E00DA9F1B9D21640005EF45 /* Frameworks */,
+				4E00DAA01B9D21640005EF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintBoard;
+			productName = PaintBoard;
+			productReference = 4E00DAA21B9D21640005EF45 /* PaintBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E00DABA1B9D21640005EF45 /* PaintBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E00DAC81B9D21640005EF45 /* Build configuration list for PBXNativeTarget "PaintBoardTests" */;
+			buildPhases = (
+				4E00DAB71B9D21640005EF45 /* Sources */,
+				4E00DAB81B9D21640005EF45 /* Frameworks */,
+				4E00DAB91B9D21640005EF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E00DABD1B9D21640005EF45 /* PBXTargetDependency */,
+			);
+			name = PaintBoardTests;
+			productName = PaintBoardTests;
+			productReference = 4E00DABB1B9D21640005EF45 /* PaintBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E00DA9A1B9D21630005EF45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GaoPanpan;
+				TargetAttributes = {
+					4E00DAA11B9D21640005EF45 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4E00DABA1B9D21640005EF45 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4E00DAA11B9D21640005EF45;
+					};
+				};
+			};
+			buildConfigurationList = 4E00DA9D1B9D21630005EF45 /* Build configuration list for PBXProject "PaintBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E00DA991B9D21630005EF45;
+			productRefGroup = 4E00DAA31B9D21640005EF45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E00DAA11B9D21640005EF45 /* PaintBoard */,
+				4E00DABA1B9D21640005EF45 /* PaintBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E00DAA01B9D21640005EF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E00DAB11B9D21640005EF45 /* Main.storyboard in Resources */,
+				4E00DAB61B9D21640005EF45 /* LaunchScreen.xib in Resources */,
+				4E00DAB31B9D21640005EF45 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E00DAB91B9D21640005EF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E00DA9E1B9D21640005EF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E00DAD01B9D31BA0005EF45 /* GPPaintBoard.m in Sources */,
+				4E00DAAB1B9D21640005EF45 /* AppDelegate.m in Sources */,
+				4E00DAA81B9D21640005EF45 /* main.m in Sources */,
+				4E00DACD1B9D21960005EF45 /* GPMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E00DAB71B9D21640005EF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E00DAC21B9D21640005EF45 /* PaintBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E00DABD1B9D21640005EF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E00DAA11B9D21640005EF45 /* PaintBoard */;
+			targetProxy = 4E00DABC1B9D21640005EF45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E00DAAF1B9D21640005EF45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E00DAB01B9D21640005EF45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E00DAB41B9D21640005EF45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E00DAB51B9D21640005EF45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E00DAC31B9D21640005EF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E00DAC41B9D21640005EF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E00DAC61B9D21640005EF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaintBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E00DAC71B9D21640005EF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaintBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E00DAC91B9D21640005EF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintBoard.app/PaintBoard";
+			};
+			name = Debug;
+		};
+		4E00DACA1B9D21640005EF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaintBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintBoard.app/PaintBoard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E00DA9D1B9D21630005EF45 /* Build configuration list for PBXProject "PaintBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E00DAC31B9D21640005EF45 /* Debug */,
+				4E00DAC41B9D21640005EF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E00DAC51B9D21640005EF45 /* Build configuration list for PBXNativeTarget "PaintBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E00DAC61B9D21640005EF45 /* Debug */,
+				4E00DAC71B9D21640005EF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E00DAC81B9D21640005EF45 /* Build configuration list for PBXNativeTarget "PaintBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E00DAC91B9D21640005EF45 /* Debug */,
+				4E00DACA1B9D21640005EF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E00DA9A1B9D21630005EF45 /* Project object */;
+}
